@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsap/colors.dart';
+import 'package:whatsap/common/utils/colors.dart';
 import 'package:whatsap/widgets/contacts_list.dart';
 
 class MobileLayoutScreen extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsap/colors.dart';
+import 'package:whatsap/common/utils/colors.dart';
 import 'package:whatsap/info.dart';
 import 'package:whatsap/screens/mobile_chat_screen.dart';
 

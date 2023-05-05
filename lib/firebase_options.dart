@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -64,5 +58,25 @@ class DefaultFirebaseOptions {
     messagingSenderId: '277318646487',
     projectId: 'whatsapp-backend-16a9f',
     storageBucket: 'whatsapp-backend-16a9f.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBVLIF0MdNjjWDenrY_TlJHr_Vb2ORghKY',
+    appId: '1:277318646487:ios:dee49ef79ffd696fbb4e92',
+    messagingSenderId: '277318646487',
+    projectId: 'whatsapp-backend-16a9f',
+    storageBucket: 'whatsapp-backend-16a9f.appspot.com',
+    iosClientId: '277318646487-pn68ap4h7n4n3rl9rbg0ulhu3lu2lvcp.apps.googleusercontent.com',
+    iosBundleId: 'com.example.whatsap',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBVLIF0MdNjjWDenrY_TlJHr_Vb2ORghKY',
+    appId: '1:277318646487:ios:dee49ef79ffd696fbb4e92',
+    messagingSenderId: '277318646487',
+    projectId: 'whatsapp-backend-16a9f',
+    storageBucket: 'whatsapp-backend-16a9f.appspot.com',
+    iosClientId: '277318646487-pn68ap4h7n4n3rl9rbg0ulhu3lu2lvcp.apps.googleusercontent.com',
+    iosBundleId: 'com.example.whatsap',
   );
 }
